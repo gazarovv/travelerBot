@@ -5,6 +5,10 @@ import telebot
 import keyboards
 import urllib3
 import json
+from database import SQLighter
+import logging
+
+
 
 
 class ApiRequest:
@@ -50,15 +54,22 @@ bot = telebot.TeleBot(config.TOKEN)
 
 http = urllib3.PoolManager()
 urllib3.disable_warnings()
-
 google_api = ApiRequest()
-
-
-
+#logger = telebot.logger
+#telebot.logger.setLevel(logging.DEBUG)
 curr_position = Position(37.381278, 54.92008)
 
 
-@bot.message_handler(commands=['start', 'help'])
+@bot.message_handler(commands=['start'])
+def print_help(message):
+    bot.send_message(message.chat.id, keyboards.first_msg, reply_markup=keyboards.first_msg_keyboard)
+    db = SQLighter(config.dbname)
+    db.add(message.chat.id, message.chat.id) # Не смог найти ник юзера
+    print(db.selectall())
+    db.close()
+
+
+@bot.message_handler(commands=['help'])
 def print_help(message):
     bot.send_message(message.chat.id, keyboards.first_msg, reply_markup=keyboards.first_msg_keyboard)
 
