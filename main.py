@@ -53,8 +53,9 @@ urllib3.disable_warnings()
 
 google_api = ApiRequest()
 
+
 curr_position = Position(37.381278, 54.92008)
-print(curr_position.get_nearest('cafe'))
+print(curr_position.get_nearest(config.types['Кафе']))
 
 
 @bot.message_handler(commands=['start', 'help'])
@@ -72,15 +73,16 @@ def msg_location(message):
 
 @bot.message_handler(content_types="text")
 def msg_type(message):  # Если не подходит под Type класса сделать вывод сообщения
-    if message.text == 'Кафе':
-        res = curr_position.get_nearest('cafe')  # Передаем тип места в качестве аргумента
+    place_type = message.text
+    if place_type in config.types:
+        res = curr_position.get_nearest(config.types[place_type])  # Передаем тип места в качестве аргумента
         bot.send_message(message.chat.id, 'Список ближайших кафе: ')
         for place in res:
             bot.send_message(message.chat.id, place)
             bot.send_location(message.chat.id,
                               res[place]['lat'], res[place]['lng'], reply_markup=keyboards.first_msg_keyboard)
     else:
-        bot.send_message(message.chat.id, 'Тип места задан не верно: {0}'.format(message.text))
+        bot.send_message(message.chat.id, 'Тип места задан не верно: {0}'.format(place_type))
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
