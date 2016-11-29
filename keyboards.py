@@ -12,8 +12,13 @@ first_msg_keyboard.row(item_btn_location)
 # Second Keyboard
 second_msg = 'А теперь выберите тип заведения:'
 second_msg_keyboard = types.ReplyKeyboardMarkup()
-second_msg_keyboard.row('Кафе', 'Ресторан', 'Музей')
-second_msg_keyboard.row('Музей', 'Памятник')
-second_msg_keyboard.row('Достопримечательность')
+second_msg_keyboard.row('Кафе', 'Ресторан', 'Бар')
+second_msg_keyboard.row('Клуб', 'Еда', 'Музей')
+second_msg_keyboard.row('Далее', 'Назад')
+
+second_msg_keyboard2 = types.ReplyKeyboardMarkup()
+second_msg_keyboard2.row('Парк', 'Зоопарк', 'Такси')
+second_msg_keyboard2.row('Метро', 'Парковка')
+second_msg_keyboard2.row('Назад')
 # Третье сообщение
 third_msg = 'Если хотите найти что то еще повторно нажмите кнопку "Отправить локацию"'
