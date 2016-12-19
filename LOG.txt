@@ -495,3 +495,600 @@ The server returned: 'b'{"ok":true,"result":{"message_id":2070,"from":{"id":2805
 Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendVenue params={'reply_markup': '{"keyboard": [[{"request_location": true, "text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e"}]]}', 'chat_id': 217214255, 'title': 'Пиццерия "Ла Гатта" / La Gatta', 'longitude': 37.5929474, 'latitude': 55.8899807, 'address': ':'} files=None
 The server returned: 'b'{"ok":true,"result":{"message_id":2071,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150586,"location":{"latitude":55.889987,"longitude":37.592923},"venue":{"location":{"latitude":55.889987,"longitude":37.592923},"title":"\\u041f\\u0438\\u0446\\u0446\\u0435\\u0440\\u0438\\u044f \\"\\u041b\\u0430 \\u0413\\u0430\\u0442\\u0442\\u0430\\" / La Gatta","address":":"}}}''
 Task complete
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+Exception occurred
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:8443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:8443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:8443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:8443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:8443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://gazarka.ddns.net:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://gazarka.ddns.net:88/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://gazarka.ddns.net:88/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:80/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''
+Received 1 new updates
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u0412 \\u043d\\u0430\\u0447\\u0430\\u043b\\u043e"}]]}'} files=None
+Received 1 new updates
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: Ааа'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2091,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175394,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+Received 1 new updates
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u0412 \\u043d\\u0430\\u0447\\u0430\\u043b\\u043e"}]]}'} files=None
+Received 1 new updates
+The server returned: 'b'{"ok":true,"result":{"message_id":2092,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175394,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u0410\\u0430\\u0430"}}''
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: Пп'} files=None
+Received 1 new updates
+Received 1 new updates
+The server returned: 'b'{"ok":true,"result":{"message_id":2093,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175394,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: П'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2094,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175394,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u041f\\u043f"}}''
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: Пта та лалвовлвлв'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2095,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175394,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u041f"}}''
+Task complete
+Received 1 new updates
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: Lol'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2096,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175394,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u041f\\u0442\\u0430 \\u0442\\u0430 \\u043b\\u0430\\u043b\\u0432\\u043e\\u0432\\u043b\\u0432\\u043b\\u0432"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":{"message_id":2097,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175395,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: Lol"}}''
+Task complete
+Received 1 new updates
+Received 1 new updates
+Received task
+Received 1 new updates
+Received task
+Received 1 new updates
+Received 1 new updates
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: пкпкпккпк'} files=None
+Received 1 new updates
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: пкпкпкпкпкп'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2098,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175396,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u043f\\u043a\\u043f\\u043a\\u043f\\u043a\\u043a\\u043f\\u043a"}}''
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: Ddd'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2099,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175396,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u043f\\u043a\\u043f\\u043a\\u043f\\u043a\\u043f\\u043a\\u043f\\u043a\\u043f"}}''
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: пкпкпк'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2100,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175396,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: Ddd"}}''
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: From хуй'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2101,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175396,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u043f\\u043a\\u043f\\u043a\\u043f\\u043a"}}''
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: F'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2102,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175397,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: From \\u0445\\u0443\\u0439"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":{"message_id":2103,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175397,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: F"}}''
+Task complete
+Received 1 new updates
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: П'} files=None
+Received 1 new updates
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u0412 \\u043d\\u0430\\u0447\\u0430\\u043b\\u043e"}]]}'} files=None
+Received 1 new updates
+The server returned: 'b'{"ok":true,"result":{"message_id":2104,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175404,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u041f"}}''
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: бах'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2105,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175404,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+Received 1 new updates
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: аааа'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2106,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175404,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u0431\\u0430\\u0445"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":{"message_id":2107,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175405,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u0430\\u0430\\u0430\\u0430"}}''
+Task complete
+Received 1 new updates
+Received 1 new updates
+Received task
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: ппкпкпк'} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Тип места задан не верно: аааааа'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2108,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175406,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u0430\\u0430\\u0430\\u0430\\u0430\\u0430"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":{"message_id":2109,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175406,"text":"\\u0422\\u0438\\u043f \\u043c\\u0435\\u0441\\u0442\\u0430 \\u0437\\u0430\\u0434\\u0430\\u043d \\u043d\\u0435 \\u0432\\u0435\\u0440\\u043d\\u043e: \\u043f\\u043f\\u043a\\u043f\\u043a\\u043f\\u043a"}}''
+Task complete
+Received 1 new updates
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Добрый день! Я тут чтобы помочь вам правильно провести ваш досуг!\nЯ TravelerBot! Для начала работы вам необходимо нажеть кнопку "Отправить локацию"!', 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2111,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482175432,"text":"\\u0414\\u043e\\u0431\\u0440\\u044b\\u0439 \\u0434\\u0435\\u043d\\u044c! \\u042f \\u0442\\u0443\\u0442 \\u0447\\u0442\\u043e\\u0431\\u044b \\u043f\\u043e\\u043c\\u043e\\u0447\\u044c \\u0432\\u0430\\u043c \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u044c\\u043d\\u043e \\u043f\\u0440\\u043e\\u0432\\u0435\\u0441\\u0442\\u0438 \\u0432\\u0430\\u0448 \\u0434\\u043e\\u0441\\u0443\\u0433!\\n\\u042f TravelerBot! \\u0414\\u043b\\u044f \\u043d\\u0430\\u0447\\u0430\\u043b\\u0430 \\u0440\\u0430\\u0431\\u043e\\u0442\\u044b \\u0432\\u0430\\u043c \\u043d\\u0435\\u043e\\u0431\\u0445\\u043e\\u0434\\u0438\\u043c\\u043e \\u043d\\u0430\\u0436\\u0435\\u0442\\u044c \\u043a\\u043d\\u043e\\u043f\\u043a\\u0443 \\"\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e\\"!"}}''
+Task complete
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': ''} files=None
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/setWebhook params={'url': 'https://77.50.6.62:443/280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/'} files={'certificate': <_io.TextIOWrapper name='./webhook_cert.pem' mode='r' encoding='UTF-8'>}
+The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was set"}''

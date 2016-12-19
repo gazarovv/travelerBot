@@ -10,6 +10,20 @@ import logging
 import cherrypy
 
 
+class WebhookServer(object):
+    @cherrypy.expose
+    def index(self):
+        if 'content-length' in cherrypy.request.headers and \
+                        'content-type' in cherrypy.request.headers and \
+                        cherrypy.request.headers['content-type'] == 'application/json':
+            length = int(cherrypy.request.headers['content-length'])
+            json_string = cherrypy.request.body.read(length).decode("utf-8")
+            update = telebot.types.Update.de_json(json_string)
+            # Эта функция обеспечивает проверку входящего сообщения
+            bot.process_new_updates([update])
+            return ''
+        else:
+            raise cherrypy.HTTPError(403)
 
 class ApiRequest:
     def __init__(self, api_key=config.API_KEY):
@@ -111,13 +125,13 @@ def msg_type(message):  # Если не подходит под Type класс�
             bot.send_message(message.chat.id, 'Тип места задан не верно: {0}'.format(place_type))
 
 
-if __name__ == '__main__':
-    bot.polling(none_stop=True)
+"""if __name__ == '__main__':
+    bot.polling(none_stop=True)"""
 
-"""
+
 bot.remove_webhook()
- Ставим заново вебхук
- bot.set_webhook(url=config.WEBHOOK_URL_BASE + config.WEBHOOK_URL_PATH,
+ #Ставим заново вебхук
+bot.set_webhook(url=config.WEBHOOK_URL_BASE + config.WEBHOOK_URL_PATH,
                 certificate=open(config.WEBHOOK_SSL_CERT, 'r'))
 cherrypy.config.update({
     'server.socket_host': config.WEBHOOK_LISTEN,
@@ -125,7 +139,8 @@ cherrypy.config.update({
     'server.ssl_module': 'builtin',
     'server.ssl_certificate': config.WEBHOOK_SSL_CERT,
     'server.ssl_private_key': config.WEBHOOK_SSL_PRIV
-}
+})
 
 
-cherrypy.quickstart(WebhookServer(), config.WEBHOOK_URL_PATH, {'/': {}})"""
+
+cherrypy.quickstart(WebhookServer(), config.WEBHOOK_URL_PATH, {'/': {}})

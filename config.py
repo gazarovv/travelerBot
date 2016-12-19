@@ -7,9 +7,9 @@ types = {'Кафе': 'cafe', 'Бар': 'bar', 'Ресторан': 'restaurant', 
          'Еда': 'food', 'Музей': 'museum', 'Парк': 'park', 'Зоопарк': 'zoo',
          'Парковка': 'parking', 'Такси': 'taxi_stand', 'Метро': 'subway_station'}
 
-WEBHOOK_HOST = '77.50.115.25'
+WEBHOOK_HOST = '77.50.6.62'
 WEBHOOK_PORT = 443  # 443, 80, 88 или 8443 (порт должен быть открыт!)
-WEBHOOK_LISTEN = '127.0.0.1'  # На некоторых серверах придется указывать такой же IP, что и выше
+WEBHOOK_LISTEN = '0.0.0.0'  # На некоторых серверах придется указывать такой же IP, что и выше
 
 WEBHOOK_SSL_CERT = './webhook_cert.pem'  # Путь к сертификату
 WEBHOOK_SSL_PRIV = './webhook_pkey.pem'  # Путь к приватному ключу
