@@ -3,3 +3,4 @@ pytelegrambotapi
 urllib3
 sqlite3
 json
+cherrypy

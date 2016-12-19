@@ -7,9 +7,12 @@ class SQLighter:
         self.connection = sqlite3.connect(database)
         self.cursor = self.connection.cursor()
 
-    def add(self, id, nickname):
+    def add(self, id):
         with self.connection:
-            self.cursor.execute('INSERT INTO Users VALUES ({0}, {1});'.format(id, nickname))
+            try:
+                self.cursor.execute('INSERT INTO Users VALUES ({0})'.format(id))
+            except Exception:
+                print('ID is not inique')
 
     def selectall(self):
         """ Получаем все строки """
