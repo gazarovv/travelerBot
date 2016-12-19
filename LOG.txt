@@ -1,0 +1,497 @@
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682004,\n"message":{"message_id":1494,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436154,"location":{"latitude":55.765226,"longitude":37.686634}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u041d\\u0430\\u0437\\u0430\\u0434"}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 339682005} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1495,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436155,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682005,\n"message":{"message_id":1496,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436156,"text":"\\u0415\\u0434\\u0430"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 339682006} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Список ближайших мест: '} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1497,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436158,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'FM-Club/fm-Klub'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1498,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436158,"text":"FM-Club/fm-Klub"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 55.7469, 'longitude': 37.654963} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1499,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436159,"location":{"latitude":55.746904,"longitude":37.654941}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Цvет'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1500,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436160,"text":"\\u0426v\\u0435\\u0442"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 55.7455574, 'longitude': 37.6679913} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1501,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436160,"location":{"latitude":55.745555,"longitude":37.667986}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Imagine Cafe'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1502,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436160,"text":"Imagine Cafe"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 55.75867400000001, 'longitude': 37.6463217} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1503,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436161,"location":{"latitude":55.758679,"longitude":37.646330}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Bufet kafe'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1504,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436161,"text":"Bufet kafe"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 55.74574149999999, 'longitude': 37.6680022} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1505,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436161,"location":{"latitude":55.745749,"longitude":37.667973}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Агиос отель на Курской'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1506,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436161,"text":"\\u0410\\u0433\\u0438\\u043e\\u0441 \\u043e\\u0442\\u0435\\u043b\\u044c \\u043d\\u0430 \\u041a\\u0443\\u0440\\u0441\\u043a\\u043e\\u0439"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 55.7536864, 'longitude': 37.6540196} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1507,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436162,"location":{"latitude":55.753703,"longitude":37.654015}}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682006,\n"message":{"message_id":1508,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436165,"location":{"latitude":55.765226,"longitude":37.686634}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u041d\\u0430\\u0437\\u0430\\u0434"}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 339682007} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1509,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436165,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682007,\n"message":{"message_id":1510,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436167,"text":"\\u0414\\u0430\\u043b\\u0435\\u0435"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041f\\u0430\\u0440\\u043a"}, {"text": "\\u0417\\u043e\\u043e\\u043f\\u0430\\u0440\\u043a"}, {"text": "\\u0422\\u0430\\u043a\\u0441\\u0438"}], [{"text": "\\u041c\\u0435\\u0442\\u0440\\u043e"}, {"text": "\\u041f\\u0430\\u0440\\u043a\\u043e\\u0432\\u043a\\u0430"}], [{"text": "\\u0412 \\u043d\\u0430\\u0447\\u0430\\u043b\\u043e"}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 339682008} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1511,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436167,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682008,\n"message":{"message_id":1512,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436169,"text":"\\u0417\\u043e\\u043e\\u043f\\u0430\\u0440\\u043a"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 339682009} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Список ближайших мест: '} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1513,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436169,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Z'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1514,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436170,"text":"Z"}}''
+Exception occurred
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 1, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682009,\n"message":{"message_id":1515,"from":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436427,"text":"/start","entities":[{"type":"bot_command","offset":0,"length":6}]}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'Добрый день! Я тут чтобы помочь вам правильно провести ваш досуг!\nЯ TravelerBot! Для начала работы вам необходимо нажеть кнопку "Отправить локацию"!', 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682010, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682010,\n"message":{"message_id":1516,"from":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436427,"text":"/start","entities":[{"type":"bot_command","offset":0,"length":6}]}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'Добрый день! Я тут чтобы помочь вам правильно провести ваш досуг!\nЯ TravelerBot! Для начала работы вам необходимо нажеть кнопку "Отправить локацию"!', 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682011, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1517,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436428,"text":"\\u0414\\u043e\\u0431\\u0440\\u044b\\u0439 \\u0434\\u0435\\u043d\\u044c! \\u042f \\u0442\\u0443\\u0442 \\u0447\\u0442\\u043e\\u0431\\u044b \\u043f\\u043e\\u043c\\u043e\\u0447\\u044c \\u0432\\u0430\\u043c \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u044c\\u043d\\u043e \\u043f\\u0440\\u043e\\u0432\\u0435\\u0441\\u0442\\u0438 \\u0432\\u0430\\u0448 \\u0434\\u043e\\u0441\\u0443\\u0433!\\n\\u042f TravelerBot! \\u0414\\u043b\\u044f \\u043d\\u0430\\u0447\\u0430\\u043b\\u0430 \\u0440\\u0430\\u0431\\u043e\\u0442\\u044b \\u0432\\u0430\\u043c \\u043d\\u0435\\u043e\\u0431\\u0445\\u043e\\u0434\\u0438\\u043c\\u043e \\u043d\\u0430\\u0436\\u0435\\u0442\\u044c \\u043a\\u043d\\u043e\\u043f\\u043a\\u0443 \\"\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e\\"!"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":{"message_id":1518,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436428,"text":"\\u0414\\u043e\\u0431\\u0440\\u044b\\u0439 \\u0434\\u0435\\u043d\\u044c! \\u042f \\u0442\\u0443\\u0442 \\u0447\\u0442\\u043e\\u0431\\u044b \\u043f\\u043e\\u043c\\u043e\\u0447\\u044c \\u0432\\u0430\\u043c \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u044c\\u043d\\u043e \\u043f\\u0440\\u043e\\u0432\\u0435\\u0441\\u0442\\u0438 \\u0432\\u0430\\u0448 \\u0434\\u043e\\u0441\\u0443\\u0433!\\n\\u042f TravelerBot! \\u0414\\u043b\\u044f \\u043d\\u0430\\u0447\\u0430\\u043b\\u0430 \\u0440\\u0430\\u0431\\u043e\\u0442\\u044b \\u0432\\u0430\\u043c \\u043d\\u0435\\u043e\\u0431\\u0445\\u043e\\u0434\\u0438\\u043c\\u043e \\u043d\\u0430\\u0436\\u0435\\u0442\\u044c \\u043a\\u043d\\u043e\\u043f\\u043a\\u0443 \\"\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e\\"!"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682011, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682011,\n"message":{"message_id":1519,"from":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436454,"reply_to_message":{"message_id":1518,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436428,"text":"\\u0414\\u043e\\u0431\\u0440\\u044b\\u0439 \\u0434\\u0435\\u043d\\u044c! \\u042f \\u0442\\u0443\\u0442 \\u0447\\u0442\\u043e\\u0431\\u044b \\u043f\\u043e\\u043c\\u043e\\u0447\\u044c \\u0432\\u0430\\u043c \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u044c\\u043d\\u043e \\u043f\\u0440\\u043e\\u0432\\u0435\\u0441\\u0442\\u0438 \\u0432\\u0430\\u0448 \\u0434\\u043e\\u0441\\u0443\\u0433!\\n\\u042f TravelerBot! \\u0414\\u043b\\u044f \\u043d\\u0430\\u0447\\u0430\\u043b\\u0430 \\u0440\\u0430\\u0431\\u043e\\u0442\\u044b \\u0432\\u0430\\u043c \\u043d\\u0435\\u043e\\u0431\\u0445\\u043e\\u0434\\u0438\\u043c\\u043e \\u043d\\u0430\\u0436\\u0435\\u0442\\u044c \\u043a\\u043d\\u043e\\u043f\\u043a\\u0443 \\"\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e\\"!"},"location":{"latitude":55.762580,"longitude":37.692360}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u041d\\u0430\\u0437\\u0430\\u0434"}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682012, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1520,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436454,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682012, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682012,\n"message":{"message_id":1521,"from":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436480,"text":"\\u0415\\u0434\\u0430"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682013, 'timeout': 20} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'Список ближайших мест: '} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1522,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436481,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'Bufet kafe'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1523,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436481,"text":"Bufet kafe"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 286225186, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.6680022, 'latitude': 55.74574149999999} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1524,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436482,"location":{"latitude":55.745749,"longitude":37.667973}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'Produktovyy magazin OOO "Dyadya Borya"'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1525,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436482,"text":"Produktovyy magazin OOO \\"Dyadya Borya\\""}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 286225186, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.66769600000001, 'latitude': 55.74641399999999} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1526,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436483,"location":{"latitude":55.746425,"longitude":37.667724}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'Агиос отель на Курской'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1527,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436483,"text":"\\u0410\\u0433\\u0438\\u043e\\u0441 \\u043e\\u0442\\u0435\\u043b\\u044c \\u043d\\u0430 \\u041a\\u0443\\u0440\\u0441\\u043a\\u043e\\u0439"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 286225186, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.6540196, 'latitude': 55.7536864} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1528,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436483,"location":{"latitude":55.753703,"longitude":37.654015}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'Costa Coffee'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1529,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436484,"text":"Costa Coffee"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 286225186, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.706333, 'latitude': 55.745301} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1530,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436484,"location":{"latitude":55.745302,"longitude":37.706345}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'Цvет'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1531,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436484,"text":"\\u0426v\\u0435\\u0442"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 286225186, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.6679913, 'latitude': 55.7455574} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1532,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436485,"location":{"latitude":55.745555,"longitude":37.667986}}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682013,\n"message":{"message_id":1533,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436493,"text":"\\u0412 \\u043d\\u0430\\u0447\\u0430\\u043b\\u043e"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041f\\u0430\\u0440\\u043a"}, {"text": "\\u0417\\u043e\\u043e\\u043f\\u0430\\u0440\\u043a"}, {"text": "\\u0422\\u0430\\u043a\\u0441\\u0438"}], [{"text": "\\u041c\\u0435\\u0442\\u0440\\u043e"}, {"text": "\\u041f\\u0430\\u0440\\u043a\\u043e\\u0432\\u043a\\u0430"}], [{"text": "\\u0412 \\u043d\\u0430\\u0447\\u0430\\u043b\\u043e"}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682014, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1534,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436494,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Добрый день! Я тут чтобы помочь вам правильно провести ваш досуг!\nЯ TravelerBot! Для начала работы вам необходимо нажеть кнопку "Отправить локацию"!', 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1535,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436494,"text":"\\u0414\\u043e\\u0431\\u0440\\u044b\\u0439 \\u0434\\u0435\\u043d\\u044c! \\u042f \\u0442\\u0443\\u0442 \\u0447\\u0442\\u043e\\u0431\\u044b \\u043f\\u043e\\u043c\\u043e\\u0447\\u044c \\u0432\\u0430\\u043c \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u044c\\u043d\\u043e \\u043f\\u0440\\u043e\\u0432\\u0435\\u0441\\u0442\\u0438 \\u0432\\u0430\\u0448 \\u0434\\u043e\\u0441\\u0443\\u0433!\\n\\u042f TravelerBot! \\u0414\\u043b\\u044f \\u043d\\u0430\\u0447\\u0430\\u043b\\u0430 \\u0440\\u0430\\u0431\\u043e\\u0442\\u044b \\u0432\\u0430\\u043c \\u043d\\u0435\\u043e\\u0431\\u0445\\u043e\\u0434\\u0438\\u043c\\u043e \\u043d\\u0430\\u0436\\u0435\\u0442\\u044c \\u043a\\u043d\\u043e\\u043f\\u043a\\u0443 \\"\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e\\"!"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682014, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682014, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682014, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682014, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682014,\n"message":{"message_id":1536,"from":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436585,"reply_to_message":{"message_id":1532,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436485,"location":{"latitude":55.745555,"longitude":37.667986}},"location":{"latitude":55.765616,"longitude":37.685881}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '286225186', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u041d\\u0430\\u0437\\u0430\\u0434"}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1537,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":286225186,"first_name":"\\u0421\\u0435\\u0440\\u0433\\u0435\\u0439","type":"private"},"date":1480436585,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682015, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682015,\n"message":{"message_id":1538,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436899,"location":{"latitude":55.765226,"longitude":37.686634}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u041d\\u0430\\u0437\\u0430\\u0434"}]]}'} files=None
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682016, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1539,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436900,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682016,\n"message":{"message_id":1540,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436903,"text":"\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682017, 'timeout': 20} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Список ближайших мест: '} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1541,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436905,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Wheel of Time'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1542,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436905,"text":"Wheel of Time"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.649794, 'latitude': 55.772378} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1543,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436906,"location":{"latitude":55.772398,"longitude":37.649794}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Bufet kafe'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1544,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436906,"text":"Bufet kafe"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.6680022, 'latitude': 55.74574149999999} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1545,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436906,"location":{"latitude":55.745749,"longitude":37.667973}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'The Rooms Boutique Hotel'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1546,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436907,"text":"The Rooms Boutique Hotel"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.658125, 'latitude': 55.747081} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1547,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436907,"location":{"latitude":55.747099,"longitude":37.658120}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Costa Coffee'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1548,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436907,"text":"Costa Coffee"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.706333, 'latitude': 55.745301} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1549,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436907,"location":{"latitude":55.745302,"longitude":37.706345}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Цvет'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1550,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436908,"text":"\\u0426v\\u0435\\u0442"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.6679913, 'latitude': 55.7455574} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1551,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436908,"location":{"latitude":55.745555,"longitude":37.667986}}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682017,\n"message":{"message_id":1552,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436912,"location":{"latitude":55.765226,"longitude":37.686634}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u041d\\u0430\\u0437\\u0430\\u0434"}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682018, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1553,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436913,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682018,\n"message":{"message_id":1554,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436914,"text":"\\u0414\\u0430\\u043b\\u0435\\u0435"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041f\\u0430\\u0440\\u043a"}, {"text": "\\u0417\\u043e\\u043e\\u043f\\u0430\\u0440\\u043a"}, {"text": "\\u0422\\u0430\\u043a\\u0441\\u0438"}], [{"text": "\\u041c\\u0435\\u0442\\u0440\\u043e"}, {"text": "\\u041f\\u0430\\u0440\\u043a\\u043e\\u0432\\u043a\\u0430"}], [{"text": "\\u0412 \\u043d\\u0430\\u0447\\u0430\\u043b\\u043e"}]]}'} files=None
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682019, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1555,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436915,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682019,\n"message":{"message_id":1556,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436916,"text":"\\u041c\\u0435\\u0442\\u0440\\u043e"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682020, 'timeout': 20} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Список ближайших мест: '} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1557,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436917,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Chkalovskaya'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1558,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436917,"text":"Chkalovskaya"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.6593866, 'latitude': 55.7560807} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1559,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436917,"location":{"latitude":55.756103,"longitude":37.659378}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Krasnoselskaya'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1560,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436917,"text":"Krasnoselskaya"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.6661449, 'latitude': 55.7799958} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1561,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436918,"location":{"latitude":55.780004,"longitude":37.666114}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': "Ploshchad' Ilyicha"} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1562,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436918,"text":"Ploshchad\' Ilyicha"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.6806404, 'latitude': 55.74730150000001} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1563,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436918,"location":{"latitude":55.747306,"longitude":37.680638}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Baumanskaya'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1564,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436918,"text":"Baumanskaya"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.679113, 'latitude': 55.7724663} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1565,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436919,"location":{"latitude":55.772474,"longitude":37.679097}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Kurskaya'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1566,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436919,"text":"Kurskaya"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'longitude': 37.659577, 'latitude': 55.758727} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1567,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436919,"location":{"latitude":55.758731,"longitude":37.659566}}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682020, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682020, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682020, 'timeout': 20} files=None
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 1, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 1, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682022,\n"message":{"message_id":1570,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034365,"reply_to_message":{"message_id":1567,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436919,"location":{"latitude":55.758731,"longitude":37.659566}},"location":{"latitude":55.751811,"longitude":38.240704}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u041d\\u0430\\u0437\\u0430\\u0434"}]]}'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682023, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1571,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034366,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682023,\n"message":{"message_id":1572,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034369,"text":"\\u0411\\u0430\\u0440"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682024, 'timeout': 20} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Список ближайших мест: '} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1573,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034370,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Z'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1574,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034370,"text":"Z"}}''
+Exception occurred
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 1, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682024,\n"message":{"message_id":1575,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034371,"reply_to_message":{"message_id":1567,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1480436919,"location":{"latitude":55.758731,"longitude":37.659566}},"location":{"latitude":55.751692,"longitude":38.241045}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'text': 'А теперь выберите тип заведения:', 'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u041d\\u0430\\u0437\\u0430\\u0434"}]]}', 'chat_id': '217214255'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682025, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1576,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034392,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682025,\n"message":{"message_id":1577,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034396,"text":"\\u041a\\u0430\\u0444\\u0435"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682026, 'timeout': 20} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'text': 'Список ближайших мест: ', 'chat_id': '217214255'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1578,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034397,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'text': 'Z', 'chat_id': '217214255'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1579,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034398,"text":"Z"}}''
+Exception occurred
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 1} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682026,\n"message":{"message_id":1580,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034399,"text":"\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 339682027} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Список ближайших мест: '} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1581,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034404,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Пятница'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1582,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034405,"text":"\\u041f\\u044f\\u0442\\u043d\\u0438\\u0446\\u0430"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 54.926224, 'longitude': 37.40143800000001} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1583,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034405,"location":{"latitude":54.926234,"longitude":37.401432}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Sushi fresh'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1584,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034406,"text":"Sushi fresh"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 54.93016710000001, 'longitude': 37.3948227} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1585,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034406,"location":{"latitude":54.930174,"longitude":37.394811}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Restoran "Sebastiya"'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1586,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034406,"text":"Restoran \\"Sebastiya\\""}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 54.9178581, 'longitude': 37.41464980000001} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1587,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034407,"location":{"latitude":54.917856,"longitude":37.414660}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': 'Restoran Zhemchuzhina'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1588,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034407,"text":"Restoran Zhemchuzhina"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 54.919841, 'longitude': 37.384811} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1589,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034408,"location":{"latitude":54.919838,"longitude":37.384818}}}''
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'chat_id': '217214255', 'text': "Postoyalyy dvor Rus'"} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1590,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034408,"text":"Postoyalyy dvor Rus\'"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendLocation params={'chat_id': 217214255, 'reply_markup': '{"keyboard": [[{"text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e", "request_location": true}]]}', 'latitude': 54.9124291, 'longitude': 37.4174169} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":1591,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1481034409,"location":{"latitude":54.912431,"longitude":37.417396}}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[]}''
+Received 0 new updates
+Task complete
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'timeout': 20, 'offset': 339682027} files=None
+Started polling.
+Started polling.
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 1, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682139,\n"message":{"message_id":2063,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150578,"location":{"latitude":55.890252,"longitude":37.599243}}}]}''
+Received 1 new updates
+Task complete
+Received task
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'reply_markup': '{"keyboard": [[{"text": "\\u041a\\u0430\\u0444\\u0435"}, {"text": "\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}, {"text": "\\u0411\\u0430\\u0440"}], [{"text": "\\u041a\\u043b\\u0443\\u0431"}, {"text": "\\u0415\\u0434\\u0430"}, {"text": "\\u041c\\u0443\\u0437\\u0435\\u0439"}], [{"text": "\\u0414\\u0430\\u043b\\u0435\\u0435"}, {"text": "\\u0412 \\u043d\\u0430\\u0447\\u0430\\u043b\\u043e"}]]}', 'text': 'А теперь выберите тип заведения:', 'chat_id': '217214255'} files=None
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682140, 'timeout': 20} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2064,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150579,"text":"\\u0410 \\u0442\\u0435\\u043f\\u0435\\u0440\\u044c \\u0432\\u044b\\u0431\\u0435\\u0440\\u0438\\u0442\\u0435 \\u0442\\u0438\\u043f \\u0437\\u0430\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u044f:"}}''
+Task complete
+The server returned: 'b'{"ok":true,"result":[{"update_id":339682140,\n"message":{"message_id":2065,"from":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150581,"text":"\\u0420\\u0435\\u0441\\u0442\\u043e\\u0440\\u0430\\u043d"}}]}''
+Received 1 new updates
+Task complete
+Received task
+Received task
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/getUpdates params={'offset': 339682141, 'timeout': 20} files=None
+Request: method=post url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendMessage params={'text': 'Список ближайших мест: ', 'chat_id': '217214255'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2066,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150583,"text":"\\u0421\\u043f\\u0438\\u0441\\u043e\\u043a \\u0431\\u043b\\u0438\\u0436\\u0430\\u0439\\u0448\\u0438\\u0445 \\u043c\\u0435\\u0441\\u0442:"}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendVenue params={'reply_markup': '{"keyboard": [[{"request_location": true, "text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e"}]]}', 'chat_id': 217214255, 'title': 'Ёрш', 'longitude': 37.59756, 'latitude': 55.88963699999999, 'address': ':'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2067,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150583,"location":{"latitude":55.889650,"longitude":37.597573},"venue":{"location":{"latitude":55.889650,"longitude":37.597573},"title":"\\u0401\\u0440\\u0448","address":":"}}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendVenue params={'reply_markup': '{"keyboard": [[{"request_location": true, "text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e"}]]}', 'chat_id': 217214255, 'title': 'Шаурма, Выпечка', 'longitude': 37.5991466, 'latitude': 55.88858889999999, 'address': ':'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2068,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150584,"location":{"latitude":55.888590,"longitude":37.599152},"venue":{"location":{"latitude":55.888590,"longitude":37.599152},"title":"\\u0428\\u0430\\u0443\\u0440\\u043c\\u0430, \\u0412\\u044b\\u043f\\u0435\\u0447\\u043a\\u0430","address":":"}}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendVenue params={'reply_markup': '{"keyboard": [[{"request_location": true, "text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e"}]]}', 'chat_id': 217214255, 'title': 'Тануки', 'longitude': 37.5974732, 'latitude': 55.88940770000001, 'address': ':'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2069,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150585,"location":{"latitude":55.889411,"longitude":37.597470},"venue":{"location":{"latitude":55.889411,"longitude":37.597470},"title":"\\u0422\\u0430\\u043d\\u0443\\u043a\\u0438","address":":"}}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendVenue params={'reply_markup': '{"keyboard": [[{"request_location": true, "text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e"}]]}', 'chat_id': 217214255, 'title': 'Lido', 'longitude': 37.6033424, 'latitude': 55.88888499999999, 'address': ':'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2070,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150586,"location":{"latitude":55.888894,"longitude":37.603336},"venue":{"location":{"latitude":55.888894,"longitude":37.603336},"title":"Lido","address":":"}}}''
+Request: method=get url=https://api.telegram.org/bot280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw/sendVenue params={'reply_markup': '{"keyboard": [[{"request_location": true, "text": "\\u041e\\u0442\\u043f\\u0440\\u0430\\u0432\\u0438\\u0442\\u044c \\u043b\\u043e\\u043a\\u0430\\u0446\\u0438\\u044e"}]]}', 'chat_id': 217214255, 'title': 'Пиццерия "Ла Гатта" / La Gatta', 'longitude': 37.5929474, 'latitude': 55.8899807, 'address': ':'} files=None
+The server returned: 'b'{"ok":true,"result":{"message_id":2071,"from":{"id":280519474,"first_name":"TravalerBot","username":"Travaler_bot"},"chat":{"id":217214255,"first_name":"Vasiliy","last_name":"Gazarov","type":"private"},"date":1482150586,"location":{"latitude":55.889987,"longitude":37.592923},"venue":{"location":{"latitude":55.889987,"longitude":37.592923},"title":"\\u041f\\u0438\\u0446\\u0446\\u0435\\u0440\\u0438\\u044f \\"\\u041b\\u0430 \\u0413\\u0430\\u0442\\u0442\\u0430\\" / La Gatta","address":":"}}}''
+Task complete

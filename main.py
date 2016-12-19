@@ -5,6 +5,10 @@ import telebot
 import keyboards
 import urllib3
 import json
+from database import SQLighter
+import logging
+import cherrypy
+
 
 
 class ApiRequest:
@@ -28,7 +32,7 @@ class ApiRequest:
 class Position:
     """ Описывает позицию и предоставлет метод
         для нахождения ближайших мест по заданному типу """
-    def __init__(self, longitude, latitude, radius=500):
+    def __init__(self, longitude, latitude, radius=400):
         self.longitude = longitude  # Долгота
         self.latitude = latitude  # Широта
         self.radius = radius
@@ -38,7 +42,8 @@ class Position:
         response = google_api.get_nearest_places(self.latitude, self.longitude, place_type, self.radius)
         if response.get('status') == 'OK':
             for obj in response.get('results'):
-                places[obj.get('name')] = obj.get('geometry')['location']  # Наполнение словаря значениями
+                places[obj.get('name')] = obj.get('geometry')['location']
+                # Наполнение словаря значениями
             return places
             # for place in places:
             #     print(place, places[place]['lat'], places[place]['lng'])
@@ -50,30 +55,25 @@ bot = telebot.TeleBot(config.TOKEN)
 
 http = urllib3.PoolManager()
 urllib3.disable_warnings()
-
 google_api = ApiRequest()
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-
+logger = telebot.logger
+telebot.logger.setLevel(logging.DEBUG)
+fh = logging.FileHandler('LOG.txt')
+logger.addHandler(fh)
 curr_position = Position(37.381278, 54.92008)
-print(curr_position.get_nearest(config.types['Кафе']))
-=======
-curr_position = Position(37.381278, 54.92008)
-print(curr_position.get_nearest('cafe'))
->>>>>>> master
-=======
-curr_position = Position(37.381278, 54.92008)
-print(curr_position.get_nearest('cafe'))
-=======
-
-curr_position = Position(37.381278, 54.92008)
-print(curr_position.get_nearest(config.types['Кафе']))
->>>>>>> origin/API
->>>>>>> master
 
 
-@bot.message_handler(commands=['start', 'help'])
+@bot.message_handler(commands=['start'])
+def print_help(message):
+    bot.send_message(message.chat.id, keyboards.first_msg, reply_markup=keyboards.first_msg_keyboard)
+    db = SQLighter(config.DB_NAME)
+    db.add(message.chat.id) # Не смог найти ник юзера
+    print(message.chat.id, ' ', message.chat.first_name)
+    print(db.selectall())
+    db.close()
+
+
+@bot.message_handler(commands=['help'])
 def print_help(message):
     bot.send_message(message.chat.id, keyboards.first_msg, reply_markup=keyboards.first_msg_keyboard)
 
@@ -88,42 +88,44 @@ def msg_location(message):
 
 @bot.message_handler(content_types="text")
 def msg_type(message):  # Если не подходит под Type класса сделать вывод сообщения
-<<<<<<< HEAD
-<<<<<<< HEAD
-    place_type = message.text
-    if place_type in config.types:
-        res = curr_position.get_nearest(config.types[place_type])  # Передаем тип места в качестве аргумента
-=======
-    if message.text == 'Кафе':
-        res = curr_position.get_nearest('cafe')  # Передаем тип места в качестве аргумента
->>>>>>> master
-=======
-    if message.text == 'Кафе':
-        res = curr_position.get_nearest('cafe')  # Передаем тип места в качестве аргумента
-=======
-    place_type = message.text
-    if place_type in config.types:
-        res = curr_position.get_nearest(config.types[place_type])  # Передаем тип места в качестве аргумента
->>>>>>> origin/API
->>>>>>> master
-        bot.send_message(message.chat.id, 'Список ближайших кафе: ')
-        for place in res:
-            bot.send_message(message.chat.id, place)
-            bot.send_location(message.chat.id,
-                              res[place]['lat'], res[place]['lng'], reply_markup=keyboards.first_msg_keyboard)
-    else:
-<<<<<<< HEAD
-<<<<<<< HEAD
-        bot.send_message(message.chat.id, 'Тип места задан не верно: {0}'.format(place_type))
-=======
-        bot.send_message(message.chat.id, 'Тип места задан не верно: {0}'.format(message.text))
->>>>>>> master
-=======
-        bot.send_message(message.chat.id, 'Тип места задан не верно: {0}'.format(message.text))
-=======
-        bot.send_message(message.chat.id, 'Тип места задан не верно: {0}'.format(place_type))
->>>>>>> origin/API
->>>>>>> master
+
+    if message.text == 'Далее':
+        bot.send_message(message.chat.id, keyboards.second_msg, reply_markup=keyboards.second_msg_keyboard2)
+    if message.text == 'Назад':
+        bot.send_message(message.chat.id, keyboards.second_msg, reply_markup=keyboards.second_msg_keyboard)
+    if message.text == 'В начало':
+        bot.send_message(message.chat.id, keyboards.first_msg, reply_markup=keyboards.first_msg_keyboard)
+    if message.text != 'Далее' and message.text != 'В начало' and message.text != 'Назад':
+        place_type = message.text
+        if place_type in config.types:
+            res = curr_position.get_nearest(config.types[place_type])  # Передаем тип места в качестве аргумента
+            bot.send_message(message.chat.id, 'Список ближайших мест: ')
+            try:
+                for place in res:
+                    bot.send_venue(message.chat.id,
+                                res[place]['lat'], res[place]['lng'], place, ':',
+                                   reply_markup=keyboards.first_msg_keyboard)
+            except Exception:
+                bot.send_message(message.chat.id, 'В радиусе {0}  метров нет таких мест'.format(800))
+        else:
+            bot.send_message(message.chat.id, 'Тип места задан не верно: {0}'.format(place_type))
+
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
+
+"""
+bot.remove_webhook()
+ Ставим заново вебхук
+ bot.set_webhook(url=config.WEBHOOK_URL_BASE + config.WEBHOOK_URL_PATH,
+                certificate=open(config.WEBHOOK_SSL_CERT, 'r'))
+cherrypy.config.update({
+    'server.socket_host': config.WEBHOOK_LISTEN,
+    'server.socket_port': config.WEBHOOK_PORT,
+    'server.ssl_module': 'builtin',
+    'server.ssl_certificate': config.WEBHOOK_SSL_CERT,
+    'server.ssl_private_key': config.WEBHOOK_SSL_PRIV
+}
+
+
+cherrypy.quickstart(WebhookServer(), config.WEBHOOK_URL_PATH, {'/': {}})"""
