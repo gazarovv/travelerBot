@@ -5,7 +5,8 @@ TOKEN = '280519474:AAHm-iwyzVNUp2owOfJymi5_wJBbe3a99jw'  # Telegram bot token GA
 API_KEY = 'AIzaSyAOvvTK4QZS5QSOrVqnDioh3FECde3ovr4'      # GOOGLE API KEY
 types = {'Кафе': 'cafe', 'Бар': 'bar', 'Ресторан': 'restaurant', 'Клуб': 'night_club',
          'Еда': 'food', 'Музей': 'museum', 'Парк': 'park', 'Зоопарк': 'zoo',
-         'Парковка': 'parking', 'Такси': 'taxi_stand', 'Метро': 'subway_station'}
+         'Парковка': 'parking', 'Такси': 'taxi_stand', 'Метро': 'subway_station', 'Банк': 'bank', 'Мойка': 'car_wash',
+         'Кино': 'movie_theater', 'Бенз': 'gas_station', 'Спа': 'spa', 'Подборка TravalerBot': 'point_of_interest'}
 
 WEBHOOK_HOST = '77.50.6.62'
 WEBHOOK_PORT = 443  # 443, 80, 88 или 8443 (порт должен быть открыт!)

@@ -46,7 +46,7 @@ class ApiRequest:
 class Position:
     """ Описывает позицию и предоставлет метод
         для нахождения ближайших мест по заданному типу """
-    def __init__(self, longitude, latitude, radius=400):
+    def __init__(self, longitude, latitude, radius=800):
         self.longitude = longitude  # Долгота
         self.latitude = latitude  # Широта
         self.radius = radius
